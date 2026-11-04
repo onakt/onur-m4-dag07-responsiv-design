@@ -261,3 +261,22 @@ article .pris {
     font-size: 2rem;
   }
 }
+
+@media (min-width: 900px) {
+  #om-oss {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* Så att all text hamnar till höger om bilden! */
+  #om-oss img {
+    grid-row: span 2;
+  }
+
+  main {
+    padding: 80px 64px;
+  }
+
+  header {
+    padding: 28px 40px;
+  }
+}
